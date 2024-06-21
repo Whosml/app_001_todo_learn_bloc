@@ -20,6 +20,7 @@ class SetToDoNoteEvent extends ToDoEvent {
 }
 
 class LoadToDoEvent extends ToDoEvent {
+  const LoadToDoEvent();
   @override
   List<Object?> get props => [];
 }
